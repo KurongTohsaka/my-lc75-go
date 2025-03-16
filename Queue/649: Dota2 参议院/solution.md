@@ -45,3 +45,4 @@ func predictPartyVictory(senate string) string {
 	}
 }
 ```
+使用两个队列存储每位参议院出现的位置，通过比较位序来选择被淘汰的议员，同时保证每轮必有两名议员被踢出队列。
