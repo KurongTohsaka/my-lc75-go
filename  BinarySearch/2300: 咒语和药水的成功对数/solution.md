@@ -10,7 +10,6 @@
 ### 题解
 ```go
 func successfulPairs(spells []int, potions []int, success int64) []int {
-	// 有序数组才能二分查找
 	sort.Ints(potions)
 	ans := make([]int, len(spells))
 
